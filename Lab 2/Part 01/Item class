@@ -1,0 +1,30 @@
+package com.mycompany.item1.obj;
+public class Item {
+    protected int location;
+    protected  String description;
+    public Item (int l,String d){
+        location=l;
+        description=d;
+    }
+    public void setlocation(int l){
+        location=l;
+    }
+    public void setdescription(String d){
+        description=d;
+    }
+    public int getlocation(){
+        return location;
+    }
+    public String getdescription(){
+        return description;
+    }
+    public void display(){
+        System.out.println("Location:"+location);
+        System.out.println("Description:"+description);
+    }
+    
+    
+}
+
+    
+
